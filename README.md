@@ -10,6 +10,8 @@ Make sure to have the following installed on your local machine
  - Composor PHP Package manager
  - node 
  - npm (node package manager)
+## Composer Installation
+<a href="https://getcomposer.org/doc/00-intro.md#installation-windows">Installation Documentation</a>
 
  Laravel uses a CLI none as Artisan to automate boilerplate tasks and manage the project environment like making controller classes and migrating your tables as well as making models.
 
