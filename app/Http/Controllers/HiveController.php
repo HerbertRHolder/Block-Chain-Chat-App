@@ -27,9 +27,10 @@ class HiveController extends BaseController
         $limit = 2;
 
         // $result = $hiveApi->getDiscussionsByBlog($tag, $limit);
+        // getAccounts() returns data from the block chain
         $result = $hiveApi->getAccounts("hiveio", true);
         // $obj = json_decode($result[0]);
-        // todo need to turn this json object into a string
+        // todo need to convert json string into an object to work with in php
         // return $obj;
         return $result[0] ;
 
