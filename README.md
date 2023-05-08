@@ -13,6 +13,30 @@ Make sure to have the following installed on your local machine
 ## Composer Installation
 <a href="https://getcomposer.org/doc/00-intro.md#installation-windows">Installation Documentation</a>
 
+Verify all Dependencies
+
+Check Composer Version
+```
+composer -V
+```
+Notice uppercase -V
+
+Check PHP Version
+```
+php -v
+```
+
+Check Node Version
+
+```
+node -v
+```
+Check NPM Version
+
+```
+npm -v
+```
+
  Laravel uses a CLI none as Artisan to automate boilerplate tasks and manage the project environment like making controller classes and migrating your tables as well as making models.
 
 <br>
