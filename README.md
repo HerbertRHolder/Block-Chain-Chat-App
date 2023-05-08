@@ -51,6 +51,7 @@ Start a server
 ```php
 php artisan serve
 ```
+Please Note the URI to the Hive JSON Response is Located in /hive once you start the server. All ROUTE Declarations can be found in `routes/web.php`. In Laravel controllers and routes are separate operations (Unlike JAVA), controllers handling business logic and routes handle page linking.
 
 Make a controller 
 ```php
